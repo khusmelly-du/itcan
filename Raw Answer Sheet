@@ -82,12 +82,7 @@ NON-FUNCTIONAL REQUIREMENT:
 -Pengguna dapat menyelesaikan transaksi dan menerima notifikasi via email dan aplikasi setelah pembayaran berhasil
 
 3a. Alur proses pembelian barang dari sisi pengguna:
-
-
-
-
-
-
+-mohon akses ke file flow bisnis.png-
 3b. 2 resiko dan mitigasinya:
 -Integrasi API aplikasi dengan sistem payroll gagal karena sinkronisasi data tidak tepat >> Mitigasinya dengan melakukan UAT dan sandbox testing dengan tim HR/payroll sebelum go-live
 -Server overload saat akses pengguna tinggi >> Mitigasinya menggunakan kapasitas server yang memungkinkan auto-scalling dan load balancing
