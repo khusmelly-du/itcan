@@ -1,0 +1,117 @@
+Nama (Name)	: 	Khusmelly Dewi Utami
+Jabatan Yang Dilamar (Position Applied)	:	Business Analyst
+Level Posisi	:	Senior
+Tanggal Wawancara	:	7 November 2025
+Jam Mulai & Akhir	:	
+
+Aturan / Rules:
+●Total waktu: 1 jam.
+●Boleh gunakan dokumentasi resmi Next.js dan library yang umum (React, Next.js docs, MDN).
+●Tidak boleh gunakan AI assistant / code generator.
+●Hasil dikerjakan individu.
+●Kumpulkan:
+○source code (folder project atau zip)
+○instruksi cara run (README singkat)
+○jawaban tertulis untuk pertanyaan non-coding.
+
+
+Penilaian Technical Test
+Studi Kasus : 
+Sebuah Bank Swasta berencana membangun “Aplikasi X”, aplikasi internal e-commerce untuk karyawan Bank Swasta.
+ Fitur utama yang direncanakan:
+●Login SSO dengan akun Bank Swasta
+
+●Pencarian & pembelian barang dari katalog
+
+●Keranjang belanja (cart)
+
+●Pembayaran melalui payroll deduction (potong gaji)
+
+●Notifikasi transaksi via email dan mobile app
+
+●Admin dashboard untuk manajemen produk dan laporan transaksi
+
+
+Soal:
+
+1. Requirement Gathering
+Pertanyaan:
+ a. Sebutkan 5 pertanyaan utama yang akan Anda ajukan ke stakeholder untuk memahami kebutuhan bisnis Aplikasi X.
+ b. Buatlah 2 functional requirement dan 2 non-functional requirement berdasarkan studi kasus.
+
+2. User Story & Acceptance Criteria 
+Pertanyaan:
+ a. Buat 3 user stories berdasarkan fitur utama.
+ b. Untuk salah satu user story, buatkan acceptance criteria.
+3. Process Analysis 
+Pertanyaan:
+ a. Gambarkan alur proses pembelian barang dari sisi pengguna.
+ b. Sebutkan 2 risiko dan mitigasinya.
+4. Prioritization & Recommendation 
+Pertanyaan:
+ a. Klasifikasikan fitur menggunakan MoSCoW method (Must, Should, Could, Won’t)
+ b. Berikan 1 rekomendasi tambahan untuk meningkatkan UX Aplikasi X .
+
+
+
+
+Jawaban:
+
+1a. 5 pertanyaan utama yang akan saya ajukan adalah:
+-Siapa saja yang menggunakan aplikasi dan bagaimana flow atau alur bisnis saat ini dari pembelian, pembayaran, hingga pelaporan transaksi?
+-Bagaimana mekanisme manajemen produk saat ini? Apakah ada kategori katalog tertentu dan bagaimana pengelolaan barang/produknya?
+-Bagaimana mekanisme payroll deduction akan diintegrasikan dengan sistem HR/payroll yang saat ini sedang berjalan?
+-Apa saja kebutuhan laporan atau fitur yang perlu ditampilkan di dashboard Admin?
+-Apa saja Goals/indikator keberhasilan (success metrics) dari implementasi aplikasi ini?
+1b. 2 functional requirement dan 2 non-functional requirement:
+FUNCTIONAL REQUIREMENT:
+-Aplikasi harus menyediakan fitur login menggunakan Single Sign-On (SSO) dengan menggunakan akun karyawan.
+-Sistem memungkinkan pengguna untuk melakukan pembayaran dengan metode payroll deduction secara otomatis
+NON-FUNCTIONAL REQUIREMENT:
+-Aplikasi harus memiliki tingkat availability minimal 99% selama jam operasional
+-Aplikasi dapat diakses dalam waktu maksimal 3 detik untuk transaksi pembelian dan pencarian barang
+
+2a. 3 user stories berdasarkan fitur utama:
+-Sebagai admin, saya ingin dapat mengelola produk dan melihat laporan transaksi secara real-time agar dapat memantau pembelian barang
+-Sebagai karyawan, saya dapat mencari dan membeli barang dari katalog agar dapat berbelanja dengan mudah
+-Sebagai karyawan, saya dapat menggunakan akun karyawan milik saya untuk login agar dapat mengakses aplikasi tanpa perlu membuat akun baru
+2b. Untuk Acceptance Criteria, saya mengambil user story berikut: “Sebagai karyawan, saya dapat mencari dan membeli barang dari katalog agar dapat berbelanja dengan mudah”:
+-Pengguna dapat melihat daftar barang berdasarkan kategori/katalog
+-Pengguna dapat menggunakan kolom pencarian untuk menemukan barang tertentu
+-Pengguna dapat menambahkan barang yang dipilih ke keranjang belanja
+-Pengguna dapat menyelesaikan transaksi dan menerima notifikasi via email dan aplikasi setelah pembayaran berhasil
+
+3a. Alur proses pembelian barang dari sisi pengguna:
+
+
+
+
+
+
+3b. 2 resiko dan mitigasinya:
+-Integrasi API aplikasi dengan sistem payroll gagal karena sinkronisasi data tidak tepat >> Mitigasinya dengan melakukan UAT dan sandbox testing dengan tim HR/payroll sebelum go-live
+-Server overload saat akses pengguna tinggi >> Mitigasinya menggunakan kapasitas server yang memungkinkan auto-scalling dan load balancing
+
+
+4a. Klasifikasi fitur dengan metode Moscow:
+-Must Have: Login SSO, Pencarian dan pembelian barang, Cart, Pembayaran menggunakan Payroll Deduction
+-Should Have: Notifikasi transaksi via email dan mobile apps, Admin Dashboard
+-Could Have: Riwayat pembelian, Retur barang, Pre-Order barang, Rating barang
+-Won’t have: Integrasi ke vendor external
+
+4b. Rekomendasi tambahan untuk meningkatkan UX aplikasi:
+-Terdapat fitur untuk melakukan retur/pengembalian barang jika barang yang diterima rusak/cacat
+-Ada fitur untuk mereview barang yang dibeli, setiap review yang diberi dapat menambah poin internal aplikasi
+-Terdapat fitur poin, untuk menjaga retensi dan meningkatkan adopsi aplikasi
+
+
+
+
+
+
+
+
+Catatan Tambahan
+Rekomendasi Akhir
+●Lanjut ke Tahap Berikutnya / Tidak Lanjut ke Tahap Berikutnya
+Alasan Rekomendasi:
